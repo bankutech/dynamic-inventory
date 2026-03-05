@@ -1,0 +1,14 @@
+{
+  "name": "dynamic-inventory",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dynamic Inventory and Demand Analysis System using Advanced SQL",
+  "scripts": {
+    "seed": "node server/src/db/seed.js",
+    "build": "npm run build --prefix client",
+    "start": "node server/src/index.js",
+    "dev": "npm run dev --prefix client",
+    "test": "node test.js"
+  }
+}
